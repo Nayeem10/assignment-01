@@ -6,6 +6,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Azeret Mono;
+    color: rgb(13, 19, 33);
 }
 
 body{
@@ -49,5 +50,29 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    padding: 50px;
+}
+.banner h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.banner p{
+    width: 853px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner button{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 24px 21px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
 }
 
