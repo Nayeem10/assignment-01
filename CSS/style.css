@@ -58,7 +58,6 @@ header{
 /* banner */
 
 .banner{
-    width: 1142px;
     min-height: 652px;
     background: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
