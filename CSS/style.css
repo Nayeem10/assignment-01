@@ -17,6 +17,14 @@ body{
     gap: 100px;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
 .font-primary{
     font-size: 32px;
     font-weight: 800;
@@ -135,4 +143,61 @@ header{
 }
 .why-web-dev p, h1, h3, button{
     margin: 30px 0px;
+}
+
+/* inspiration */
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+.iframe-container{
+    width: 1140px;
+    height: 615px;
+    padding: 32px;
+    /* margin: 48px 0px; */
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.iframe-container iframe{
+    width: 100%;
+    height: 100%;    
+    border-radius: 16px;
+}
+
+/* my current target */
+.current-target-container{
+    width: 1140px;
+    min-height: 460px;
+    text-align: center;
+}
+.item-container{
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.current-target-container .item{
+    width: 364px;
+    height: 299px;
+    padding: 40px;
+    border-radius: 16px;
+}
+.item-bg-1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.item-bg-2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.current-target-container a{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
 }
