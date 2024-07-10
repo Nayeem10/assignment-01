@@ -174,6 +174,9 @@ header{
     text-align: center;
     gap: 50px;
 }
+.inspiration p{
+    padding: 0px 500px;
+}
 .iframe-container{
     width: 1140px;
     height: 615px;
@@ -187,6 +190,7 @@ header{
     height: 100%;    
     border-radius: 16px;
 }
+
 
 /* my current target */
 .current-target-container{
@@ -204,9 +208,12 @@ header{
 }
 .current-target-container .item{
     width: 364px;
-    height: 299px;
+    min-height: 400px;
     padding: 40px;
     border-radius: 16px;
+}
+.current-target-container > p{
+    padding: 0px 90px;
 }
 .item-bg-1{
     background: rgba(255, 76, 30, 0.05);
@@ -236,7 +243,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     gap: 40px;
-    padding: 40px;
+    padding: 40px 50px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
@@ -245,11 +252,13 @@ header{
 .next-target-container .item h1, p{
     margin: 0px;
 }
-
+.next-target-container > p{
+    padding: 0px 90px;
+}
 /* feedback */
 .feedback-container{
     width: 1140px;
-    height: 313px;
+    min-height: 313px;
     background: url(../assets/handshake.jpg), radial-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.7));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -274,7 +283,7 @@ header{
 .form-container{
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     gap: 20px;
 }
 .feedback-container input[type="submit"], textarea{
@@ -288,6 +297,10 @@ header{
     background: rgb(255, 255, 255);
 }
 .feedback-container input[type="submit"]{
+    font: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
     padding: 17px 20px
 }
 .feedback-container textarea{
