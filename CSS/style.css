@@ -226,3 +226,70 @@ header{
     margin: 0px;
 }
 
+/* feedback */
+.feedback-container{
+    width: 1140px;
+    height: 313px;
+    background: url(../assets/handshake.jpg), radial-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.7));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+}
+.feedback-container > div{
+    padding: 64px 48px;
+}
+.feedback-container h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+
+    margin: 10px 0px;
+}
+.feedback-container p{
+    color: rgb(255, 255, 255);
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+}
+.feedback-container input[type="submit"], textarea{
+    margin-top: 50px;
+    display: inline;
+    resize: none;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.feedback-container input[type="submit"]{
+    padding: 17px 20px
+}
+.feedback-container textarea{
+    width: 500px;
+    padding: 19px 20px
+}
+
+/* footer */
+footer{
+    width: 1140px;
+    padding: 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer h1{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.social-media a{
+    margin-left: 20px;
+}
