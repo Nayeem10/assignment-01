@@ -54,17 +54,21 @@ a > button{
 
 /* nav-bar */
 header{
-    width: 1442px;
+    width: 100%;
 }
 .nav-bar{
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    margin: 50px 200px 30px;
     font-size: 28px;
     font-weight: 800;
 }
 .nav-bar button{
+    /* position: fixed;
+    top: 40px;
+    right: 200px; */
     padding: 15px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
@@ -78,7 +82,7 @@ header{
 
 /* banner */
 .banner{
-    width: 1440px;
+    width: 100%;
     min-height: 652px;
     background: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -97,7 +101,7 @@ header{
     font-weight: 800;
 }
 .banner p{
-    width: 853px;
+    max-width: 853px;
 }
 
 .banner a button{
@@ -113,7 +117,7 @@ header{
 
 /* why web development */
 .why-web-dev{
-    width: 946px;
+    width: 1246px;
     min-height: 1233px;
     padding: 80px 97px;
     display: flex;
@@ -169,7 +173,7 @@ header{
 /* inspiration */
 .inspiration{
     margin-top: 0px;
-    width: 1140px;
+    width: 1440px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -184,8 +188,8 @@ header{
     margin-top: 0px;
 }
 .iframe-container{
-    width: 1076px;
-    height: 550px;
+    width: 1376px;
+    min-height: 650px;
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -200,7 +204,7 @@ header{
 /* my current target */
 .current-target-container{
     margin-top: 0px;
-    width: 1140px;
+    width: 1440px;
     min-height: 460px;
     text-align: center;
 }
@@ -212,7 +216,7 @@ header{
     align-items: center;
 }
 .current-target-container .item{
-    width: 284px;
+    width: 320px;
     min-height: 400px;
     padding: 40px;
     margin: 0px;
@@ -238,7 +242,7 @@ header{
 
 /* my next target */
 .next-target-container{
-    width: 1140px;
+    width: 1440px;
     min-height: 705px;
     text-align: center;
     margin: 0px;
@@ -264,7 +268,7 @@ header{
 }
 /* feedback */
 .feedback-container{
-    width: 1140px;
+    width: 1440px;
     min-height: 313px;
     background: url(../assets/handshake.jpg), radial-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.7));
     background-blend-mode: overlay;
