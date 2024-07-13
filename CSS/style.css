@@ -189,7 +189,7 @@ header{
 }
 .iframe-container{
     width: 1376px;
-    min-height: 650px;
+    height: 650px;
     padding: 32px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
